@@ -1,0 +1,18 @@
+//
+//  HYBaseCollectionSectionModel.m
+//  HYWallet
+//
+//  Created by huangyi on 2018/6/1.
+//  Copyright © 2018年 HY. All rights reserved.
+//
+
+#import "HYBaseCollectionSectionModel.h"
+
+@implementation HYBaseCollectionSectionModel
+- (instancetype)handleModel {return self;}
+- (NSMutableArray<HYBaseCollectionCellModel *> *)cellModels {
+    return Hy_Lazy(_cellModels, ({
+        @[].mutableCopy;
+    }));
+}
+@end
