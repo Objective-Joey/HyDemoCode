@@ -53,7 +53,7 @@
         
         CGFloat bottomMargin = self.navigationController.viewControllers.count > 1 ? 0 : (kTabBarHeight + kSafeAreaBottom);
         CGRect rect = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT  - kNavigationBarHeight - kSafeAreaTop - bottomMargin);
-        [HYBaseBlockCollectsionView colletionViewWithFrame:rect
+        [HYBaseBlockCollectionView colletionViewWithFrame:rect
                                                    layout:[[UICollectionViewFlowLayout alloc] init]
                                               refreshType:HYRefreshTypePullDown
                                                 viewModel:self.viewModel
