@@ -16,7 +16,7 @@
 
 - (void)handleViewModel {
     self.pageNumber = 1;
-    self.pageSize = 10;
+    self.pageSize = 20;
 }
 
 
